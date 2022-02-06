@@ -16,6 +16,11 @@ export const NewCount = () => {
     setCount(reset);
   };
 
+  if (Less > 0) {
+    return alert("Now it,s Less than zero");
+  } else {
+  }
+
   return (
     <div>
       <h1>{count}</h1>
